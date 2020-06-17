@@ -1,0 +1,21 @@
+Exercice 1
+calc_long(l:liste)
+	long <- 0
+	deb <- l
+	Tantque deb <>nil
+		deb <- deb.suivant
+		long <- long+1
+	FinTanque
+	retourner long
+
+Exercice 2
+sup_id(l:liste, id : entier)
+	deb<-l
+	Tantque id>1 et deb <> nil
+		id<-id-1
+		deb<-deb.suivant
+	FinTantque	 
+	n<-deb.suivant
+			 
+		
+
